@@ -23,3 +23,14 @@ Struct basic for neovim plugins
 ```bash
     :lua require('greetings').greet()
 ```
+
+- Update code use this command
+```bash
+    :luafile dev/init.lua
+```
+
+- And run
+
+```bash
+ :lua require('greetings').greet()
+```
